@@ -4,9 +4,9 @@
   "description": "Javascript scaffold for the Global Day of Code Retreat",
   "license": "MIT",
   "scripts": {
+    "pretest": "NODE_ENV=test eslint ./**/*.js",
     "test": "NODE_ENV=test nyc mocha --require babel-register",
-    "watch": "NODE_ENV=test mocha --require babel-register --watch",
-    "linter": "NODE_ENV=test eslint ./**/*.js"
+    "watch": "NODE_ENV=test mocha --require babel-register --watch"
   },
   "dependencies": {},
   "devDependencies": {
