@@ -1,6 +1,13 @@
 {
   "parser": "babel-eslint",
+  "plugins": [
+    "babel"
+  ],
   "rules": {
-    "strict": 1
+    "strict": 1,
+    "babel/new-cap": 1,
+    "babel/object-curly-spacing": 1,
+    "babel/no-invalid-this": 1,
+    "babel/semi": 1
   }
 }
