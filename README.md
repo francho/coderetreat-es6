@@ -6,7 +6,6 @@ This is an start point for practice and improve your developer skills in the [Gl
 
 It has all necesary to solve the [Conway's game of life](#user-content-conways-game-of-life-rules) using Test Driven Development (TDD) and modern Javascript (ECMAScript 6 / ES2015)
 
-
 ## Installation
 
 Fork this repository, install the dependencies with:
@@ -34,6 +33,12 @@ It runs code linter + unit testing + code coverage
 `yarn linter`
 
 Check if your code follows [Airbnb's javascript style guide](https://github.com/airbnb/javascript)  
+
+## After each iteration... DELETE your code
+
+`yarn reset`
+
+code retreat rules ;)
 
 ### More info
 
