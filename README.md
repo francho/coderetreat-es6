@@ -11,7 +11,7 @@ Fork this repository, install the dependencies with:
 
 `yarn install`
 
-    ... and code, enjoy, learn, throw out your code and repeat ;)
+... and code, enjoy, learn, throw out your code and repeat ;)
 
 ## Usage
 
@@ -41,8 +41,7 @@ Check if your code follows [Airbnb's javascript style guide](https://github.com/
 
 ## Conway's game of life rules
 
-![]
-(https://upload.wikimedia.org/wikipedia/commons/e/e5/Gospers_glider_gun.gif)
+![](https://upload.wikimedia.org/wikipedia/commons/e/e5/Gospers_glider_gun.gif)
 
 The universe of the Game of Life is an infinite two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, alive or dead, or "populated" or "unpopulated". Every cell interacts with its eight neighbours, which are the cells that are horizontally, vertically, or diagonally adjacent. At each step in time, the following transitions occur:
 
