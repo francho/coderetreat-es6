@@ -2,7 +2,9 @@
 
 ## What is this?
 
-This is a scaffold for practice and improve your Javascript (ES2015) coder skins in the [Global Day of Code Reretat](http://coderetreat.org/)
+This is an start point for practice and improve your developer skills in the [Global Day of Code Reretat](http://coderetreat.org/)
+
+It has all necesary to solve the [Conway's game of life](#user-content-conways-game-of-life-rules) using Test Driven Development (TDD) and modern Javascript (ECMAScript 6 / ES2015)
 
 
 ## Installation
