@@ -12,15 +12,15 @@ Clone this repository
 
 `git clone https://github.com/francho/coderetreat-es6.git`
  
-Install the dependencies with:
+Install the dependencies with [yarn](https://yarnpkg.com):
 
 `yarn install`
 
-Code, enjoy, learn, throw out your code and repeat ;)
-
 ## Usage
 
-You must write your javascript code in `./src/` folder and your tests in `./test/` folder.
+Code, enjoy, learn, throw out your code and repeat ;)
+
+You must write your javascript code in `./src/` folder and your tests in `./test/` folder (see sample code).
 
 ### Run all tests once 
 
