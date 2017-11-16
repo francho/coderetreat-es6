@@ -6,7 +6,7 @@
   "scripts": {
     "linter": "eslint test src",
     "pretest": "eslint test src",
-    "test": "mocha --require babel-register",
+    "test": "nyc mocha --require babel-register",
     "start": "mocha --require babel-register --watch",
     "reset": "git reset HEAD ; git checkout -- . ; git clean -fd"
   },
