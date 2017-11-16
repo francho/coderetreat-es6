@@ -4,9 +4,10 @@
   "description": "Javascript scaffold for the Global Day of Code Retreat",
   "license": "MIT",
   "scripts": {
+    "linter": "eslint test src",
     "pretest": "eslint test src",
     "test": "mocha --require babel-register",
-    "watch": "mocha --require babel-register --watch"
+    "start": "mocha --require babel-register --watch"
   },
   "dependencies": {},
   "devDependencies": {

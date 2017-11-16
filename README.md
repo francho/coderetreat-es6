@@ -1,15 +1,48 @@
 # Javascript scaffold for the Global Day of Code Retreat
 
-## We will use:
+## What is this?
+
+This is a scaffold for practice and improve your Javascript (ES2015) coder skins in the [Global Day of Code Reretat](http://coderetreat.org/)
+
+
+## Installation
+
+Fork this repository, install the dependencies with:
+
+`yarn install`
+
+    ... and code, enjoy, learn, throw out your code and repeat ;)
+
+## Usage
+
+You must write your javascript code in `./src/` folder and your tests in `./test/` folder.
+
+### Run all tests once 
+
+`yarn test`
+
+It runs code linter + unit testing + code coverage
+
+### Run mocha tests continuously 
+
+`yarn start`
+
+### Check your code style
+
+`yarn linter`
+
+Check if your code follows [Airbnb's javascript style guide](https://github.com/airbnb/javascript)  
+
+### More info
 
 - [mocha](https://mochajs.org/) – unit test framework
 - [chai](http://chaijs.com/) – BDD / TDD assertion library
 - [ncy](https://github.com/istanbuljs/nyc) – code coverage tool
-- [style guide](https://github.com/airbnb/javascript) - Airbnb javascript style guide
 
 ## Conway's game of life rules
 
-https://upload.wikimedia.org/wikipedia/commons/e/e5/Gospers_glider_gun.gif
+![]
+(https://upload.wikimedia.org/wikipedia/commons/e/e5/Gospers_glider_gun.gif)
 
 The universe of the Game of Life is an infinite two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, alive or dead, or "populated" or "unpopulated". Every cell interacts with its eight neighbours, which are the cells that are horizontally, vertically, or diagonally adjacent. At each step in time, the following transitions occur:
 
@@ -20,6 +53,4 @@ The universe of the Game of Life is an infinite two-dimensional orthogonal grid 
 
 The initial pattern constitutes the seed of the system. The first generation is created by applying the above rules simultaneously to every cell in the seed—births and deaths occur simultaneously, and the discrete moment at which this happens is sometimes called a tick (in other words, each generation is a pure function of the preceding one). The rules continue to be applied repeatedly to create further generations.
 
-(Wikipedia)[https://en.wikipedia.org/wiki/Conway's_Game_of_Life]
-
-
+[source: Wikipedia](https://en.wikipedia.org/wiki/Conway's_Game_of_Life)
