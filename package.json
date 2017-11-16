@@ -4,19 +4,19 @@
   "description": "Javascript scaffold for the Global Day of Code Retreat",
   "license": "MIT",
   "scripts": {
-    "pretest": "NODE_ENV=test eslint ./**/*.js",
-    "test": "NODE_ENV=test nyc mocha --require babel-register",
-    "watch": "NODE_ENV=test mocha --require babel-register --watch"
+    "pretest": "eslint test src",
+    "test": "mocha --require babel-register",
+    "watch": "mocha --require babel-register --watch"
   },
   "dependencies": {},
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-eslint": "7",
     "babel-preset-es2015": "^6.24.1",
     "babel-register": "^6.26.0",
     "chai": "^4.1.2",
-    "eslint": "3.x",
-    "eslint-plugin-babel": "^4.1.2",
+    "eslint": "^4.11.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
     "mocha": "^4.0.1",
     "nyc": "^11.3.0"
   }

@@ -5,6 +5,7 @@
 - [mocha](https://mochajs.org/) – unit test framework
 - [chai](http://chaijs.com/) – BDD / TDD assertion library
 - [ncy](https://github.com/istanbuljs/nyc) – code coverage tool
+- [style guide](https://github.com/airbnb/javascript) - Airbnb javascript style guide
 
 ## Conway's game of life rules
 
